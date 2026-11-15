@@ -11,7 +11,7 @@ st.set_page_config(
     page_icon="📊",
     layout="wide"
 )
-
+st.caption("Developed by Varshitha H V")
 st.title("📊 AI Business Analyst Assistant")
 st.write("Analyze business data and get AI-powered insights.")
 
@@ -514,4 +514,13 @@ st.download_button(
     data=csv_data,
     file_name="business_sales_report.csv",
     mime="text/csv"
+)
+# Small Developer Credit
+st.markdown(
+    """
+    <div style="text-align: right; font-size: 11px; color: gray;">
+        Developed by Varshitha H V
+    </div>
+    """,
+    unsafe_allow_html=True
 )
